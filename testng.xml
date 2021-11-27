@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AgileTravelSuite" verbose="1"> 	
+
+	<listeners>
+	     <listener class-name="utilities.TestListeners"/>
+	</listeners>
+  
+ 	<parameter name="browser" value="chrome"/>
+ 	<parameter name="url" value="http://travel.agileway.net"/>
+
+  	<test name="Sign in Test Case">
+		<classes>
+			<class name="testcase.Login_Test"/>
+		</classes>
+	</test>
+
+  	<test name="Book A Fligh Test Case">
+		<classes>
+			<class name="testcase.Flight_Test"/>
+		</classes>
+	</test>
+ 
+	<test name="Check Information of Passenger is display true">
+		<classes>
+			<class name="testcase.Passenger_Test"/>
+		</classes>
+	</test> 
+
+	<test name="Payment Test Case">
+		<classes>
+			<class name="testcase.Payment_Test"/>
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->

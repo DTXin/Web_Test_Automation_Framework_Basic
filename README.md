@@ -1,24 +1,24 @@
-# # Introduction
-This is a sample basic to practice Web Test Automation!. The Sample using Eclipse IDE, Selenium WebDriver Framework, Java language, Maven, ExtentReport and TestNG.
+# Introduction
+This is a sample basic to practice web test automation and build a test automation framework in java.
 
 # Test Subject
-Visit to website http://travel.agileway.net/. We will book a flight one trip or return trip. Then we will fill passenger's information and payment it.  
+Visit to website http://travel.agileway.net/. We login to home page and book a flight one trip or return trip. Then we will fill passenger's information and payment it.
 
 # Libraries and Frameworks
 This sample using the following libraries and frameworks:
 - Java JDK-1.8 as the programming language
-- Selenium WebDriver as Web browser automation
-- Maven as Build and package management
+- Selenium WebDriver as web browser automation
+- Maven as build and package management
 - Extent Report as the testing report strategy
 - TestNG as a testing framework to support the test creation, execution and reporting
 
 # Test Architecture
 We know that any automation project starting with a good test architecture. This sample can be your initial test architecture for a faster start. You will see the following items in this architecture:
 
-- Page Object Model (POM) 
+- Page Object Model (POM)
 - Page Factory
-- TestListener
-- Screenshot
+- TestListener of pass/failed/skip test
+- Screenshot of failed test and attack to extent report
 - Reporting
 
 # Page Object Model and Page Factory
